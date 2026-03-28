@@ -1,105 +1,146 @@
-# Secure Password Generator (GUI-Based)
+# 🔐 Secure Password Generator (GUI-Based)
 
-## Overview
-
-This project is a graphical password generator application built using Python and Tkinter. It allows users to generate strong, secure, and customizable passwords based on various criteria such as length, character types, and complexity level.
-
-The application focuses on usability, security, and flexibility, making it suitable for everyday use as well as educational purposes.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![GUI](https://img.shields.io/badge/GUI-Tkinter-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 
-## Features
+## 📌 Overview
 
-* Graphical User Interface (GUI) using Tkinter
-* User-defined password length
-* Selection of character types:
+This project is a **secure and customizable password generator** built using Python and Tkinter. It provides a user-friendly graphical interface that allows users to generate strong passwords based on selected criteria such as length, character types, and complexity levels.
 
-  * Uppercase letters (A–Z)
-  * Lowercase letters (a–z)
-  * Digits (0–9)
+The application is designed with a focus on **security, usability, and flexibility**, making it ideal for both practical use and academic projects.
+
+---
+
+## ✨ Features
+
+* Interactive Graphical User Interface (GUI)
+* Custom password length selection
+* Character type options:
+
+  * Uppercase (A–Z)
+  * Lowercase (a–z)
+  * Numbers (0–9)
   * Symbols (!, @, #, etc.)
 * Password complexity levels:
 
   * Low
   * Medium
-  * High (ensures inclusion of all selected character types)
-* Option to exclude specific characters
-* Clipboard integration for easy copying
-* Input validation and error handling
+  * High (ensures strong password rules)
+* Exclude specific characters
+* Clipboard copy functionality
+* Input validation with error handling
 * Randomized secure password generation
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-* Python 3.x
-* Tkinter (for GUI)
-* random (for password generation)
-* string (character sets)
-* pyperclip (clipboard functionality)
-
----
-
-## Installation
-
-1. Download or clone the project files
-2. Install required dependency:
-
-pip install pyperclip
+* **Python 3.x**
+* **Tkinter** (GUI framework)
+* **random** (secure random generation)
+* **string** (character sets)
+* **pyperclip** (clipboard support)
 
 ---
 
-## How to Run
+## ⚙️ Installation
 
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/OIBSIP-TASK3.git
+```
+
+2. Navigate to the project folder:
+
+```
+cd OIBSIP-TASK3
+```
+
+3. Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ How to Run
+
+```
 python main.py
+```
 
 ---
 
-## Usage Instructions
+## 🧑‍💻 Usage
 
-1. Enter the desired password length
-2. Select the character types to include
-3. Choose the complexity level
-4. Optionally exclude specific characters
-5. Click on "Generate Password"
-6. Copy the password using the "Copy to Clipboard" button
-
----
-
-## Security Features
-
-* Ensures minimum password length
-* Enforces at least one character type selection
-* High complexity mode guarantees stronger passwords
-* Random shuffling to avoid predictable patterns
-* Custom exclusion of vulnerable or unwanted characters
+1. Enter desired password length
+2. Select character types
+3. Choose complexity level
+4. (Optional) Exclude specific characters
+5. Click **Generate Password**
+6. Copy using **Copy to Clipboard**
 
 ---
 
-## Limitations
+## 🔐 Security Features
 
-* No password storage functionality
-* Clipboard data may be accessible by other applications
-* Does not check passwords against known data breaches
+* Enforces minimum password length
+* Requires at least one character type
+* High complexity ensures strong password composition
+* Random shuffling prevents predictable patterns
+* Custom exclusion improves control
 
 ---
 
-## Future Enhancements
+## 📁 Project Structure
+
+```
+OIBSIP-TASK3/
+│── main.py
+│── requirements.txt
+│── README.md
+│── LICENSE
+│── Project Report.pdf
+│── Screenshots/
+```
+
+---
+
+## ⚠️ Limitations
+
+* No password storage system
+* Clipboard data may be temporarily accessible
+* No integration with breach-check APIs
+
+---
+
+## 🚀 Future Enhancements
 
 * Password strength meter
-* Encrypted password storage
-* Integration with security APIs
-* Improved UI using advanced frameworks
+* Encrypted password manager
+* Modern UI using CustomTkinter
 * Export passwords to file
+* API integration for security checks
 
 ---
 
-## Author
+## 👨‍💻 Author
 
-Sarthak Jindal
+**Sarthak Jindal**
 
 ---
 
-## License
+## 📜 License
 
-This project is for educational purposes only.
+This project is licensed under the MIT License.
+
+---
+
+## ⭐ Acknowledgment
+
+This project was developed as part of an internship task to demonstrate practical implementation of Python GUI and cybersecurity concepts.
