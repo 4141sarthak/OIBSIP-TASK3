@@ -78,10 +78,10 @@ def copy_to_clipboard():
         messagebox.showwarning("Warning", "No password to copy!")
 
 
-# ------------------ GUI ------------------ #
+# gui
 
 root = tk.Tk()
-root.title("🔐 Password Generator")
+root.title(" Password Generator")
 root.geometry("500x500")
 root.configure(bg="#1e1e2f")
 
